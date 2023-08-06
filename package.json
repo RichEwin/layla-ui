@@ -1,5 +1,5 @@
 {
-  "name": "layla-ui",
+  "name": "layla-ui-library",
   "version": "0.0.1",
   "description": "ui library",
   "repository": "https://github.com/RichEwin/layla-ui.git",
@@ -8,7 +8,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "author": "layla-ui",
+  "author": "layla-ui-library",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
