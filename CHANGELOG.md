@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/RichEwin/layla-ui/compare/v2.0.0...v2.0.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* small fixes, including pipeline addition, README.md update, and adding a CONTRIBUTING.md file ([419100d](https://github.com/RichEwin/layla-ui/commit/419100d0d86cc7dc3150594098ea09a0e6bba223))
+
 ## [2.0.0](https://github.com/RichEwin/layla-ui/compare/v1.0.0...v2.0.0) (2023-08-07)
 
 
