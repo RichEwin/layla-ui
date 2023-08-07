@@ -1,33 +1,18 @@
-name: Release and Publish to NPM
-
 on:
   push:
     branches:
       - master
+  workflow_dispatch:
+
+name: Release and Publish to NPM
 
 jobs:
-  release-npm:
+  release-package:
     runs-on: ubuntu-latest
-
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build Storybook
-        run: npm run build-storybook
-
-      - name: Run Rollup
-        run: npm run rollup
-
-      - name: Run Google Release Please
+      - name: Run Release Please
         uses: google-github-actions/release-please-action@v3
         id: release
         with:
@@ -35,6 +20,29 @@ jobs:
           release-type: node
           package-name: layla-ui-library
           bump-minor-pre-major: true
+
+      - name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm install
+
+      - name: Build Storybook
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm run build-storybook
+
+      - name: Run Rollup
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm run rollup
 
       - name: Publish to NPM
         if: ${{ github.event_name == 'pull_request' }}
