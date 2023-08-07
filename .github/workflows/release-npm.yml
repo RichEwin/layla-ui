@@ -37,7 +37,7 @@ jobs:
           bump-minor-pre-major: true
 
       - name: Publish to NPM
-        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'refs/heads/master' }}
+        if: ${{ github.event_name == 'pull_request' }}
         run: |
           echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
           npm publish
