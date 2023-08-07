@@ -1,6 +1,7 @@
 import React from "react";
 import { Meta } from "@storybook/react";
 import Button from "./Button";
+import "../../utils/storybookStyles.css";
 
 export default {
   title: "Button",
@@ -23,4 +24,8 @@ export const WithSize = () => (
       <Button key={size} label={size} />
     ))}
   </div>
+);
+
+export const WithClassName = () => (
+  <Button label="I'm styled" className="CustomStyling" size="lg" />
 );
