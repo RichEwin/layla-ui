@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.0](https://github.com/RichEwin/layla-ui/compare/v1.0.0...v2.0.0) (2023-08-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* include components
+* include components
+* include components
+
+### Features
+
+* include components ([035b088](https://github.com/RichEwin/layla-ui/commit/035b088964e8aabfa3b74b58cea5ba3ac4b2d5aa))
+* include components ([968687a](https://github.com/RichEwin/layla-ui/commit/968687a8e39a12a4de5ab787c02881f4c03ec49a))
+* include components ([b963217](https://github.com/RichEwin/layla-ui/commit/b963217cac133e4761c3de8cbee99c4bb7f4a864))
+
 ## 1.0.0 (2023-08-07)
 
 
