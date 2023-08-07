@@ -20,3 +20,18 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Run Google Release Please
+        uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          release-type: node
+          package-name: layla-ui-library
+          bump-minor-pre-major: true
+
+      - name: Publish to NPM
+        run: |
+          echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
+          npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
