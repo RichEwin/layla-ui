@@ -45,7 +45,7 @@ jobs:
         run: npm run rollup
 
       - name: Publish to NPM
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ steps.release.outputs.release_created }}
         run: |
           echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
           npm publish
