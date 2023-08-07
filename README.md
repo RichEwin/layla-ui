@@ -26,3 +26,7 @@ function App() {
   return <Button label="Next" />;
 }
 ```
+
+## Changelog
+
+The [changelog](https://github.com/RichEwin/layla-ui/releases) is regularly updated to reflect what's changed in each new release.

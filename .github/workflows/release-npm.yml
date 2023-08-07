@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build Storybook
+        run: npm run build-storybook
+
       - name: Run Rollup
         run: npm run rollup
 
@@ -28,6 +31,7 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         id: release
         with:
+          changelog-types: '[{"type": "feat", "section": "Features", "hidden": false},{"type": "fix", "section": "Bug Fixes", "hidden": false},{"type": "perf", "section": "Performance", "hidden": false},{"type": "refactor", "section": "Refactoring", "hidden": false},{"type": "chore", "section": "Miscellaneous", "hidden": false},{"type": "build", "section": "Miscellaneous", "hidden": false},{"type": "deps", "section": "Dependencies", "hidden": false},{"type": "docs", "section": "Documentations", "hidden": false}]'
           release-type: node
           package-name: layla-ui-library
           bump-minor-pre-major: true
