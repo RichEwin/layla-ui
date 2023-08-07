@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/RichEwin/layla-ui/compare/v2.0.6...v2.1.0) (2023-08-07)
+
+
+### Features
+
+* added className prop to Button component ([6d60ce2](https://github.com/RichEwin/layla-ui/commit/6d60ce2f4fa8eb9e3e32d4e42806a3f8fd10b040))
+* added className prop to Input component ([a62104a](https://github.com/RichEwin/layla-ui/commit/a62104ac2be1e28ea2f7a52786e586d288ad4953))
+* added customStyling example to Button.stories.tsx ([79373cb](https://github.com/RichEwin/layla-ui/commit/79373cb78374069285e504c72dd907e63689eafa))
+
 ## [2.0.6](https://github.com/RichEwin/layla-ui/compare/v2.0.5...v2.0.6) (2023-08-07)
 
 
