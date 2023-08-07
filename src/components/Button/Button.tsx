@@ -6,11 +6,23 @@ export interface ButtonProps {
   disabled?: boolean;
   onClick?: () => void;
   size?: "sm" | "md" | "lg";
+  className?: string;
 }
 
-export const Button = ({ label, disabled, onClick, size }: ButtonProps) => {
+export const Button = ({
+  label,
+  disabled,
+  onClick,
+  size,
+  className,
+}: ButtonProps) => {
   return (
-    <StyledButton onClick={onClick} disabled={disabled} size={size}>
+    <StyledButton
+      onClick={onClick}
+      disabled={disabled}
+      size={size}
+      className={className}
+    >
       {label}
     </StyledButton>
   );
