@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/RichEwin/layla-ui/compare/v2.0.2...v2.0.3) (2023-08-07)
+
+
+### Bug Fixes
+
+* testing small fix for Publish to NPM step v2 ([b2eaadc](https://github.com/RichEwin/layla-ui/commit/b2eaadc876a45baef827a330fbb74ea3a39f7d94))
+
 ## [2.0.2](https://github.com/RichEwin/layla-ui/compare/v2.0.1...v2.0.2) (2023-08-07)
 
 
