@@ -14,3 +14,19 @@ export const Default = () => {
     <Typography variant={variant}>{variant}</Typography>
   ));
 };
+
+export const WithItalic = () => {
+  return (
+    <Typography variant="h1" italic>
+      Italic
+    </Typography>
+  );
+};
+
+export const WithWeight = () => {
+  return (
+    <Typography variant="h1" weight={700}>
+      Bold
+    </Typography>
+  );
+};
