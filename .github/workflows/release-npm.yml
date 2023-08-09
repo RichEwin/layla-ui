@@ -35,13 +35,17 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: npm install
 
+      - name: Running test suite
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm test
+
       - name: Build Storybook
         if: ${{ steps.release.outputs.release_created }}
         run: npm run build-storybook
 
       - name: Run Rollup
         if: ${{ steps.release.outputs.release_created }}
-        run: npm run rollup
+        run: npm run build
 
       - name: Publish to NPM
         if: ${{ steps.release.outputs.release_created }}
