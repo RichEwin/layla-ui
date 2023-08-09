@@ -5,8 +5,8 @@
 
 ### Features
 
-* added Typography component, including stores.tsx ([5cc2264](https://github.com/RichEwin/layla-ui/commit/5cc226421dac416b993f8972bda00bad1d1871a6))
-* added Typography component, including stores.tsx ([cfc41aa](https://github.com/RichEwin/layla-ui/commit/cfc41aae966cbbd39b4f2258112f7c68c33fd1a2))
+* added Typography component, including stories.tsx ([5cc2264](https://github.com/RichEwin/layla-ui/commit/5cc226421dac416b993f8972bda00bad1d1871a6))
+* added Typography component, including stories.tsx ([cfc41aa](https://github.com/RichEwin/layla-ui/commit/cfc41aae966cbbd39b4f2258112f7c68c33fd1a2))
 
 ## [2.1.0](https://github.com/RichEwin/layla-ui/compare/v2.0.6...v2.1.0) (2023-08-07)
 
