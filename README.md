@@ -49,7 +49,7 @@ import { Button } from "layla-ui-library";
 import "./styles.css";
 
 function App() {
-  return <Button label="Next" />;
+  return <Button label="Next" className="styledButton" />;
 }
 
 export default App;
