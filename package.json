@@ -4,9 +4,10 @@
   "description": "ui library",
   "repository": "https://github.com/RichEwin/layla-ui.git",
   "scripts": {
-    "rollup": "rollup -c",
+    "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "jest"
   },
   "author": "layla-ui-library",
   "license": "ISC",
