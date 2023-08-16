@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/RichEwin/layla-ui/compare/v2.2.0...v2.2.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* updated WithWeight typography storybook function, added component-creation script to make it easier to add components and associated files ([effc2f7](https://github.com/RichEwin/layla-ui/commit/effc2f74e438a34fc75c6bb6ed41012cd5769fdb))
+
 ## [2.2.0](https://github.com/RichEwin/layla-ui/compare/v2.1.0...v2.2.0) (2023-08-09)
 
 
