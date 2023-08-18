@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/RichEwin/layla-ui/compare/v2.4.0...v2.4.1) (2023-08-18)
+
+
+### Bug Fixes
+
+* updated README.md ([3348ff2](https://github.com/RichEwin/layla-ui/commit/3348ff25f77d6b48d85a8743d6cd8913deaa735b))
+
 ## [2.4.0](https://github.com/RichEwin/layla-ui/compare/v2.3.0...v2.4.0) (2023-08-18)
 
 
