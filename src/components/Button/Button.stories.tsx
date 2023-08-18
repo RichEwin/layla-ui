@@ -10,18 +10,18 @@ export default {
 
 const buttonSizes = ["sm", "md", "lg"] as const;
 
-export const Default = () => <Button label="Click me" />;
+export const Default = () => <Button>Click Me!</Button>;
 
-export const Disabled = () => <Button label="Click me" disabled />;
+export const Disabled = () => <Button disabled>Click Me!</Button>;
 
 export const WithOnClick = () => (
-  <Button label="Click me" onClick={() => alert("Clicked!")} />
+  <Button onClick={() => alert("Clicked!")}>Click Me!</Button>
 );
 
 export const WithSize = () => (
   <div>
     {buttonSizes.map((size) => (
-      <Button key={size} label={size} />
+      <Button key={size}>{size}</Button>
     ))}
   </div>
 );

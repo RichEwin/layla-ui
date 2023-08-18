@@ -2,19 +2,19 @@ import React from "react";
 import { StyledButton } from "./Button.styled";
 
 export interface ButtonProps {
-  label: string;
   disabled?: boolean;
   onClick?: () => void;
   size?: "sm" | "md" | "lg";
   className?: string;
+  children: React.ReactNode;
 }
 
 export const Button = ({
-  label,
   disabled,
   onClick,
   size,
   className,
+  children,
 }: ButtonProps) => {
   return (
     <StyledButton
@@ -23,7 +23,7 @@ export const Button = ({
       size={size}
       className={className}
     >
-      {label}
+      {children}
     </StyledButton>
   );
 };
