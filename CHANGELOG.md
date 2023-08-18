@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/RichEwin/layla-ui/compare/v2.2.1...v2.3.0) (2023-08-18)
+
+
+### Features
+
+* refactored button to the natvie HTML button API ([c4b5151](https://github.com/RichEwin/layla-ui/commit/c4b515178d25277b9a8070c555d0bb91c0885bfc))
+
 ## [2.2.1](https://github.com/RichEwin/layla-ui/compare/v2.2.0...v2.2.1) (2023-08-16)
 
 
