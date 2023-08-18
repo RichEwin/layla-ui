@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/RichEwin/layla-ui/compare/v2.4.1...v2.5.0) (2023-08-18)
+
+
+### Features
+
+* fixed rollup build ([fdafbcd](https://github.com/RichEwin/layla-ui/commit/fdafbcdf672baf738bc78da80d10dba7b43592eb))
+
 ## [2.4.1](https://github.com/RichEwin/layla-ui/compare/v2.4.0...v2.4.1) (2023-08-18)
 
 
