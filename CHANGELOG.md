@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/RichEwin/layla-ui/compare/v2.5.0...v2.5.1) (2023-08-18)
+
+
+### Bug Fixes
+
+* testing d.ts file structure ([08354e4](https://github.com/RichEwin/layla-ui/commit/08354e41e8683dc8c20cfa351d04537c58f96426))
+
 ## [2.5.0](https://github.com/RichEwin/layla-ui/compare/v2.4.1...v2.5.0) (2023-08-18)
 
 
