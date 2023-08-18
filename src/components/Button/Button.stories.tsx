@@ -27,5 +27,7 @@ export const WithSize = () => (
 );
 
 export const WithClassName = () => (
-  <Button label="I'm styled" className="CustomStyling" size="lg" />
+  <Button className="CustomStyling" size="lg">
+    I'm Styled
+  </Button>
 );
