@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/RichEwin/layla-ui/compare/v2.5.1...v2.5.2) (2023-08-18)
+
+
+### Bug Fixes
+
+* fixed weight prop ([058b673](https://github.com/RichEwin/layla-ui/commit/058b673509d48f399a98028a051965dd8f888ba0))
+
 ## [2.5.1](https://github.com/RichEwin/layla-ui/compare/v2.5.0...v2.5.1) (2023-08-18)
 
 
