@@ -8,7 +8,7 @@ export default {
 } as Meta<typeof Typography>;
 
 const tagVariants = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
-const weightVariants = [100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
+const fontWeightVariants = ["normal", "bold", "lighter", "bolder"] as const;
 
 export const Default = () => {
   return tagVariants.map((variant) => (
@@ -25,9 +25,9 @@ export const WithItalic = () => {
 };
 
 export const WithWeight = () => {
-  return weightVariants.map((weight) => (
+  return fontWeightVariants.map((weight) => (
     <Typography variant="h1" weight={weight}>
-      Weight:
+      {weight}
     </Typography>
   ));
 };

@@ -11,16 +11,7 @@ export type TagVariants =
   | "p"
   | "span";
 
-export type FontWeightVariants =
-  | 100
-  | 200
-  | 300
-  | 400
-  | 500
-  | 600
-  | 700
-  | 800
-  | 900;
+export type FontWeightVariants = "normal" | "bold" | "lighter" | "bolder";
 
 export interface TypographyProps {
   variant: TagVariants;
