@@ -23,7 +23,7 @@ import * as React from "react";
 import { Button } from "layla-ui-library";
 
 function App() {
-  return <Button label="Next" />;
+  return <Button>Next</Button>;
 }
 ```
 
@@ -49,7 +49,7 @@ import { Button } from "layla-ui-library";
 import "./styles.css";
 
 function App() {
-  return <Button label="Next" className="styledButton" />;
+  return <Button className="styledButton">Next</Button>
 }
 
 export default App;
@@ -60,7 +60,6 @@ export default App;
   background-color: #000000;
 }
 ```
-
 
 ## Changelog
 
