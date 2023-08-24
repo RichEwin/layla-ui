@@ -9,10 +9,12 @@ interface StyledBoxProps {
   flexDirection?: string;
   height?: string;
   width?: string;
+  mt?: string;
+  mb?: string;
 }
 
 export const StyledBox = styled.div<StyledBoxProps>`
-  display: ${(props) => (props.display ? props.display : "flex")};
+  display: ${(props) => props.display && props.display};
   flex-direction: ${(props) => props.flexDirection && props.flexDirection};
   align-items: ${(props) => props.alignItems && props.alignItems};
   justify-content: ${(props) => props.justifyContent && props.justifyContent};
@@ -21,4 +23,6 @@ export const StyledBox = styled.div<StyledBoxProps>`
     props.backgroundColor ? props.backgroundColor : "transparent"};
   height: ${(props) => props.height && props.height};
   width: ${(props) => props.width && props.width};
+  margin-top: ${(props) => props.mt && props.mt};
+  margin-bottom: ${(props) => props.mb && props.mb};
 `;

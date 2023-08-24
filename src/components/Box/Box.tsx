@@ -11,6 +11,8 @@ export interface BoxProps {
   flexDirection?: string;
   height?: string;
   width?: string;
+  mb?: string;
+  mt?: string;
 }
 
 export const Box = ({
@@ -23,6 +25,8 @@ export const Box = ({
   flexDirection,
   height,
   width,
+  mb,
+  mt,
 }: BoxProps) => {
   return (
     <StyledBox
@@ -34,6 +38,8 @@ export const Box = ({
       flexDirection={flexDirection}
       height={height}
       width={width}
+      mb={mb}
+      mt={mt}
     >
       {children}
     </StyledBox>
