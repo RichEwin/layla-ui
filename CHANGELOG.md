@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.2](https://github.com/RichEwin/layla-ui/compare/v2.10.1...v2.10.2) (2023-08-24)
+
+
+### Bug Fixes
+
+* updated input and chip components ([226b8df](https://github.com/RichEwin/layla-ui/commit/226b8dfe177fc2a66a66fd3ddf1b25632ad64834))
+
 ## [2.10.1](https://github.com/RichEwin/layla-ui/compare/v2.10.0...v2.10.1) (2023-08-24)
 
 
