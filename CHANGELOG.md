@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.4](https://github.com/RichEwin/layla-ui/compare/v2.8.3...v2.8.4) (2023-08-24)
+
+
+### Bug Fixes
+
+* added height and width to styledbox ([fb4ebb0](https://github.com/RichEwin/layla-ui/commit/fb4ebb0d036c3284e6a49eefd4594ff7fbff16a0))
+
 ## [2.8.3](https://github.com/RichEwin/layla-ui/compare/v2.8.2...v2.8.3) (2023-08-24)
 
 
