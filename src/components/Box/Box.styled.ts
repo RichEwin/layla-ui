@@ -6,11 +6,13 @@ interface StyledBoxProps {
   justifyContent?: string;
   gap?: string;
   backgroundColor?: string;
+  flexDirection?: string;
 }
 
 export const StyledBox = styled.div<StyledBoxProps>`
   display: ${(props) => (props.display ? props.display : "flex")};
-  align-items: ${(props) => (props.alignItems ? props.alignItems : "center")};
+  flex-direction: ${(props) => props.flexDirection && props.flexDirection};
+  align-items: ${(props) => props.alignItems && props.alignItems};
   justify-content: ${(props) => props.justifyContent && props.justifyContent};
   gap: ${(props) => (props.gap ? props.gap : "0")};
   background-color: ${(props) =>
