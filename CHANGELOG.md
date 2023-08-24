@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.1](https://github.com/RichEwin/layla-ui/compare/v2.10.0...v2.10.1) (2023-08-24)
+
+
+### Bug Fixes
+
+* updated type for input onChange ([8c2bc98](https://github.com/RichEwin/layla-ui/commit/8c2bc981eebbe5a8cae9f66decf24c4852d335f4))
+
 ## [2.10.0](https://github.com/RichEwin/layla-ui/compare/v2.9.0...v2.10.0) (2023-08-24)
 
 
