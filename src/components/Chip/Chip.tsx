@@ -5,11 +5,12 @@ export interface ChipProps {
   label: string;
   active: boolean;
   onClick: () => void;
+  color: string;
 }
 
-const Chip = ({ label, active, onClick }: ChipProps) => {
+const Chip = ({ label, active, onClick, color }: ChipProps) => {
   return (
-    <StyledChipContainer active={active} onClick={onClick}>
+    <StyledChipContainer active={active} onClick={onClick} color={color}>
       {label}
     </StyledChipContainer>
   );
@@ -19,6 +20,7 @@ export interface ChipGroupInterface {
   tags: string[];
   onClick: (tag: string) => void;
   reset?: boolean;
+  color: string;
 }
 
 export const ChipGroup = ({ tags, onClick, reset }: ChipGroupInterface) => {
@@ -47,6 +49,7 @@ export const ChipGroup = ({ tags, onClick, reset }: ChipGroupInterface) => {
           label={tag}
           active={activeTag === tag}
           onClick={() => toggleTag(tag)}
+          color="#FBD0E1"
         />
       ))}
     </StyledChipGroupContainer>

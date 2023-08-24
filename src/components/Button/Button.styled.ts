@@ -3,6 +3,8 @@ import { getButtonFontSize, getButtonSize } from "../../utils/getSize.utils";
 
 export interface StyledButtonProps {
   size?: "sm" | "md" | "lg";
+  color: string | undefined;
+  isTransparent?: boolean;
 }
 
 export const StyledButton = styled.button<StyledButtonProps>`
@@ -11,4 +13,9 @@ export const StyledButton = styled.button<StyledButtonProps>`
   border-radius: 4px;
   font-size: ${(props) => (props.size ? getButtonFontSize(props.size) : "md")};
   width: auto;
+  background-color: ${(props) => (props.color ? props.color : null)};
+  color: #000000;
+  cursor: pointer;
+  border: ${(props) => (props.isTransparent ? "none" : null)};
+  background: ${(props) => (props.isTransparent ? "none" : null)};
 `;

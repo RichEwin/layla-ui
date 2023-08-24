@@ -10,7 +10,7 @@ export default {
 
 const buttonSizes = ["sm", "md", "lg"] as const;
 
-export const Default = () => <Button>Click Me!</Button>;
+export const Default = () => <Button color="#FBD0E1">Click Me!</Button>;
 
 export const Disabled = () => <Button disabled>Click Me!</Button>;
 
@@ -30,4 +30,8 @@ export const WithClassName = () => (
   <Button className="CustomStyling" size="lg">
     I'm Styled
   </Button>
+);
+
+export const WithTransparent = () => (
+  <Button isTransparent>I'm Transparent</Button>
 );

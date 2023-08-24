@@ -7,6 +7,8 @@ export interface ButtonProps {
   size?: "sm" | "md" | "lg";
   className?: string;
   children: React.ReactNode;
+  color?: string;
+  isTransparent?: boolean;
 }
 
 export const Button = ({
@@ -15,6 +17,8 @@ export const Button = ({
   size,
   className,
   children,
+  color,
+  isTransparent,
 }: ButtonProps) => {
   return (
     <StyledButton
@@ -22,6 +26,8 @@ export const Button = ({
       disabled={disabled}
       size={size}
       className={className}
+      color={color}
+      isTransparent={isTransparent}
     >
       {children}
     </StyledButton>

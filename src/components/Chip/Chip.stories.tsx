@@ -16,5 +16,6 @@ export const Default = () => (
       "East of England",
       "South West England",
     ]}
+    color="#FBD0E1"
   />
 );
