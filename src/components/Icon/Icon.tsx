@@ -18,7 +18,7 @@ export const Icon = ({
   onClick,
   className,
 }: IconProps) => {
-  const icon: IconDefinition = iconLibrary[iconName];
+  const icon: IconDefinition = (iconLibrary as any)[iconName];
 
   if (!icon) {
     console.warn(`Icon '${iconName}' not found in iconLibrary.`);
