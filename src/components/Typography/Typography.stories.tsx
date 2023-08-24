@@ -31,3 +31,11 @@ export const WithWeight = () => {
     </Typography>
   ));
 };
+
+export const WithMargin = () => {
+  return (
+    <Typography variant="h1" mt="100px">
+      With margin
+    </Typography>
+  );
+};
