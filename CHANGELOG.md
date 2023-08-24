@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.1](https://github.com/RichEwin/layla-ui/compare/v2.8.0...v2.8.1) (2023-08-24)
+
+
+### Bug Fixes
+
+* made justify-content on box default to none ([bc2688d](https://github.com/RichEwin/layla-ui/commit/bc2688d626d90d4678143f88acc9090f7b0991d5))
+
 ## [2.8.0](https://github.com/RichEwin/layla-ui/compare/v2.7.0...v2.8.0) (2023-08-24)
 
 
