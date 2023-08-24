@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.5](https://github.com/RichEwin/layla-ui/compare/v2.8.4...v2.8.5) (2023-08-24)
+
+
+### Bug Fixes
+
+* added margin top and margn bottom ([7e20c30](https://github.com/RichEwin/layla-ui/commit/7e20c3078fa60fe5ad4ad733c120643177176ff5))
+
 ## [2.8.4](https://github.com/RichEwin/layla-ui/compare/v2.8.3...v2.8.4) (2023-08-24)
 
 
