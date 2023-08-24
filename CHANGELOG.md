@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.4](https://github.com/RichEwin/layla-ui/compare/v2.10.3...v2.10.4) (2023-08-24)
+
+
+### Bug Fixes
+
+* updated typeography ([c6207e4](https://github.com/RichEwin/layla-ui/commit/c6207e40396f7ffccaf0514499b1de21a4e29371))
+
 ## [2.10.3](https://github.com/RichEwin/layla-ui/compare/v2.10.2...v2.10.3) (2023-08-24)
 
 
