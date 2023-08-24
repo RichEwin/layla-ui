@@ -15,5 +15,5 @@ export const DynamicTypography = styled(
     createElement(variant, { className }, children, italic)
 )`
   font-style: ${({ italic }) => (italic ? "italic" : "normal")};
-  font-weight: ${({ weight }) => weight && weight};
+  font-weight: ${({ weight }) => (weight ? weight : "normal")};
 `;
