@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.0](https://github.com/RichEwin/layla-ui/compare/v2.7.0...v2.8.0) (2023-08-24)
+
+
+### Features
+
+* added Box component ([44f2d39](https://github.com/RichEwin/layla-ui/commit/44f2d3949af2b7d4dd538b7b77c24af1c8863c31))
+
 ## [2.7.0](https://github.com/RichEwin/layla-ui/compare/v2.6.0...v2.7.0) (2023-08-24)
 
 
