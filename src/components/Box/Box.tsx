@@ -9,6 +9,8 @@ export interface BoxProps {
   children: React.ReactNode;
   backgroundColor?: string;
   flexDirection?: string;
+  height?: string;
+  width?: string;
 }
 
 export const Box = ({
@@ -19,6 +21,8 @@ export const Box = ({
   children,
   backgroundColor,
   flexDirection,
+  height,
+  width,
 }: BoxProps) => {
   return (
     <StyledBox
@@ -28,6 +32,8 @@ export const Box = ({
       gap={gap}
       backgroundColor={backgroundColor}
       flexDirection={flexDirection}
+      height={height}
+      width={width}
     >
       {children}
     </StyledBox>

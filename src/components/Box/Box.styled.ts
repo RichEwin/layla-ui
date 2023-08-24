@@ -7,6 +7,8 @@ interface StyledBoxProps {
   gap?: string;
   backgroundColor?: string;
   flexDirection?: string;
+  height?: string;
+  width?: string;
 }
 
 export const StyledBox = styled.div<StyledBoxProps>`
@@ -17,4 +19,6 @@ export const StyledBox = styled.div<StyledBoxProps>`
   gap: ${(props) => (props.gap ? props.gap : "0")};
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "transparent"};
+  height: ${(props) => props.height && props.height};
+  width: ${(props) => props.width && props.width};
 `;
