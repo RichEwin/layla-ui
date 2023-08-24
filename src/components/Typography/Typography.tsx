@@ -21,6 +21,8 @@ export interface TypographyProps {
   weight?: FontWeightVariants;
   mt?: string;
   mb?: string;
+  color?: string;
+  isUnderlined?: boolean;
 }
 
 export const Typography = ({
@@ -31,6 +33,8 @@ export const Typography = ({
   weight,
   mt,
   mb,
+  color,
+  isUnderlined,
 }: TypographyProps) => {
   return (
     <DynamicTypography
@@ -40,6 +44,8 @@ export const Typography = ({
       className={className}
       italic={italic}
       weight={weight}
+      color={color}
+      isUnderlined={isUnderlined}
     >
       {children}
     </DynamicTypography>

@@ -10,14 +10,25 @@ export interface DynamicTypographyProps {
   weight?: FontWeightVariants;
   mt?: string;
   mb?: string;
+  color?: string;
+  isUnderlined?: boolean;
 }
 
 export const DynamicTypography = styled(
-  ({ variant, children, className, italic }: DynamicTypographyProps) =>
-    createElement(variant, { className }, children, italic)
+  ({
+    variant,
+    children,
+    className,
+    italic,
+    isUnderlined,
+  }: DynamicTypographyProps) =>
+    createElement(variant, { className }, children, italic, isUnderlined)
 )`
   font-style: ${({ italic }) => (italic ? "italic" : "normal")};
   font-weight: ${({ weight }) => (weight ? weight : "normal")};
   margin-top: ${({ mt }) => (mt ? mt : "0px")};
   margin-bottom: ${({ mb }) => (mb ? mb : "0px")};
+  color: ${({ color }) => (color ? color : "inherit")};
+  text-decoration: ${({ isUnderlined }) =>
+    isUnderlined ? "underline" : "none"};
 `;

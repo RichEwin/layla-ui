@@ -39,3 +39,19 @@ export const WithMargin = () => {
     </Typography>
   );
 };
+
+export const WithColor = () => {
+  return (
+    <Typography variant="h1" color="red">
+      With color
+    </Typography>
+  );
+};
+
+export const WithUnderline = () => {
+  return (
+    <Typography variant="h1" isUnderlined>
+      With underline
+    </Typography>
+  );
+};
