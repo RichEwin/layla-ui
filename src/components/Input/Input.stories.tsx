@@ -16,3 +16,7 @@ export const WithOnChange = () => (
 );
 
 export const WithPlaceholder = () => <Input placeholder="Placeholder" />;
+
+export const WithType = () => <Input type="number" />;
+
+export const WithLabel = () => <Input label="Label" />;

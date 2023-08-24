@@ -1,11 +1,13 @@
 import React from "react";
-import { StyledInput } from "./Input.styled";
+import { LabelWrapper, StyledInput } from "./Input.styled";
 
 export interface InputProps {
   disabled?: boolean;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   className?: string;
+  type?: string;
+  label?: string;
 }
 
 export const Input = ({
@@ -13,14 +15,20 @@ export const Input = ({
   onChange,
   placeholder,
   className,
+  type,
+  label,
 }: InputProps) => {
   return (
-    <StyledInput
-      disabled={disabled}
-      onChange={onChange}
-      placeholder={placeholder}
-      className={className}
-    />
+    <>
+      {label ? <LabelWrapper>{label}</LabelWrapper> : null}
+      <StyledInput
+        disabled={disabled}
+        onChange={onChange}
+        placeholder={placeholder}
+        className={className}
+        type={type}
+      />
+    </>
   );
 };
 

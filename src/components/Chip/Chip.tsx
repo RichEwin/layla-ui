@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { StyledChipContainer, StyledChipGroupContainer } from "./Chip.styled";
 
 export interface ChipProps {
@@ -18,10 +18,17 @@ const Chip = ({ label, active, onClick }: ChipProps) => {
 export interface ChipGroupInterface {
   tags: string[];
   onClick: (tag: string) => void;
+  reset?: boolean;
 }
 
-export const ChipGroup = ({ tags, onClick }: ChipGroupInterface) => {
+export const ChipGroup = ({ tags, onClick, reset }: ChipGroupInterface) => {
   const [activeTag, setActiveTag] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (reset) {
+      setActiveTag(null);
+    }
+  }, [reset]);
 
   const toggleTag = (tag: string) => {
     if (activeTag === tag) {
