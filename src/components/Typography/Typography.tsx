@@ -19,6 +19,8 @@ export interface TypographyProps {
   className?: string;
   italic?: boolean;
   weight?: FontWeightVariants;
+  mt?: string;
+  mb?: string;
 }
 
 export const Typography = ({
@@ -27,9 +29,13 @@ export const Typography = ({
   className,
   italic,
   weight,
+  mt,
+  mb,
 }: TypographyProps) => {
   return (
     <DynamicTypography
+      mb={mb}
+      mt={mt}
       variant={variant}
       className={className}
       italic={italic}

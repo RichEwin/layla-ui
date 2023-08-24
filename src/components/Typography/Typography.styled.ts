@@ -8,6 +8,8 @@ export interface DynamicTypographyProps {
   className?: string;
   italic?: boolean;
   weight?: FontWeightVariants;
+  mt: string;
+  mb: string;
 }
 
 export const DynamicTypography = styled(
@@ -16,4 +18,6 @@ export const DynamicTypography = styled(
 )`
   font-style: ${({ italic }) => (italic ? "italic" : "normal")};
   font-weight: ${({ weight }) => (weight ? weight : "normal")};
+  margin-top: ${({ mt }) => mt};
+  margin-bottom: ${({ mb }) => mb};
 `;
