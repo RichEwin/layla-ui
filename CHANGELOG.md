@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.0](https://github.com/RichEwin/layla-ui/compare/v2.8.7...v2.9.0) (2023-08-24)
+
+
+### Features
+
+* added Chip component ([9c3e477](https://github.com/RichEwin/layla-ui/commit/9c3e4775bb8615a6a5ff34dda56ab5a36adb26d1))
+
 ## [2.8.7](https://github.com/RichEwin/layla-ui/compare/v2.8.6...v2.8.7) (2023-08-24)
 
 
