@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.2](https://github.com/RichEwin/layla-ui/compare/v2.8.1...v2.8.2) (2023-08-24)
+
+
+### Bug Fixes
+
+* made default font-weight normal ([8ff0504](https://github.com/RichEwin/layla-ui/commit/8ff0504a048ee464164ab991daab1ffff782db84))
+
 ## [2.8.1](https://github.com/RichEwin/layla-ui/compare/v2.8.0...v2.8.1) (2023-08-24)
 
 
