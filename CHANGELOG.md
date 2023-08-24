@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/RichEwin/layla-ui/compare/v2.5.2...v2.6.0) (2023-08-24)
+
+
+### Features
+
+* added Icon component ([279400e](https://github.com/RichEwin/layla-ui/commit/279400e5ecebb3282ee02cf56b3b7005b91e1a2e))
+
 ## [2.5.2](https://github.com/RichEwin/layla-ui/compare/v2.5.1...v2.5.2) (2023-08-18)
 
 
