@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.3](https://github.com/RichEwin/layla-ui/compare/v2.8.2...v2.8.3) (2023-08-24)
+
+
+### Bug Fixes
+
+* added flexDirection ([c1c80f8](https://github.com/RichEwin/layla-ui/commit/c1c80f8c1d784e12d0188d2ee67ed38bdc425d40))
+
 ## [2.8.2](https://github.com/RichEwin/layla-ui/compare/v2.8.1...v2.8.2) (2023-08-24)
 
 
