@@ -3,7 +3,7 @@ import { StyledInput } from "./Input.styled";
 
 export interface InputProps {
   disabled?: boolean;
-  onChange?: () => void;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   className?: string;
 }

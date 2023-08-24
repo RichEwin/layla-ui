@@ -11,6 +11,8 @@ export const Default = () => <Input />;
 
 export const Disabled = () => <Input disabled />;
 
-export const WithOnChange = () => <Input onChange={() => alert("Changed!")} />;
+export const WithOnChange = () => (
+  <Input onChange={(event) => alert(event.target.value)} />
+);
 
 export const WithPlaceholder = () => <Input placeholder="Placeholder" />;
