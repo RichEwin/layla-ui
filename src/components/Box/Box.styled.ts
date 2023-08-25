@@ -11,6 +11,9 @@ interface StyledBoxProps {
   width?: string;
   mt?: string;
   mb?: string;
+  withBorder?: boolean;
+  withBorderRadius?: boolean;
+  padding?: string;
 }
 
 export const StyledBox = styled.div<StyledBoxProps>`
@@ -25,4 +28,7 @@ export const StyledBox = styled.div<StyledBoxProps>`
   width: ${(props) => props.width && props.width};
   margin-top: ${(props) => props.mt && props.mt};
   margin-bottom: ${(props) => props.mb && props.mb};
+  border: ${(props) => (props.withBorder ? "1px solid #000000" : null)};
+  border-radius: ${(props) => (props.withBorderRadius ? "10px" : null)};
+  padding: ${(props) => (props.padding ? props.padding : null)};
 `;

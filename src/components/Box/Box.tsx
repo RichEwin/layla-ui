@@ -13,6 +13,9 @@ export interface BoxProps {
   width?: string;
   mb?: string;
   mt?: string;
+  withBorder?: boolean;
+  withBorderRadius?: boolean;
+  padding?: string;
 }
 
 export const Box = ({
@@ -27,6 +30,9 @@ export const Box = ({
   width,
   mb,
   mt,
+  withBorder,
+  withBorderRadius,
+  padding,
 }: BoxProps) => {
   return (
     <StyledBox
@@ -40,6 +46,9 @@ export const Box = ({
       width={width}
       mb={mb}
       mt={mt}
+      withBorder={withBorder}
+      withBorderRadius={withBorderRadius}
+      padding={padding}
     >
       {children}
     </StyledBox>
