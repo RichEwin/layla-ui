@@ -3,7 +3,7 @@ import { useState } from "react";
 import { StyledCheckBoxInput } from "./Checkbox.styled";
 
 export interface CheckboxProps {
-  label: string;
+  label: any;
   checked: boolean;
   onChange?: (event: any) => void;
   className?: string;
