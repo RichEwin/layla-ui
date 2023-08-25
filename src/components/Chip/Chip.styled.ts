@@ -10,7 +10,7 @@ export const StyledChipContainer = styled.div<StyledChipContainerProps>`
   padding: 5px 10px;
   margin: 5px;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 1px solid #000000;
   border-radius: 5px;
 
   ${(props) =>
