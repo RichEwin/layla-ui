@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.2](https://github.com/RichEwin/layla-ui/compare/v2.12.1...v2.12.2) (2023-08-25)
+
+
+### Bug Fixes
+
+* updated props ([a0252c6](https://github.com/RichEwin/layla-ui/commit/a0252c6ca9e1c0b5b4f49e13fd4d3386e1086c19))
+
 ## [2.12.1](https://github.com/RichEwin/layla-ui/compare/v2.12.0...v2.12.1) (2023-08-25)
 
 
