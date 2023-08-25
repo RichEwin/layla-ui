@@ -20,7 +20,7 @@ export interface ChipGroupInterface {
   tags: string[];
   onClick: (tag: string) => void;
   reset?: boolean;
-  color: string;
+  color?: string;
 }
 
 export const ChipGroup = ({ tags, onClick, reset }: ChipGroupInterface) => {
