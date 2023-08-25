@@ -49,9 +49,5 @@ export const WithColor = () => {
 };
 
 export const WithUnderline = () => {
-  return (
-    <Typography variant="h1" isUnderlined>
-      With underline
-    </Typography>
-  );
+  return <Typography isUnderlined>With underline</Typography>;
 };

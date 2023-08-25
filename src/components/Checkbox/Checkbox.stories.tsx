@@ -9,7 +9,7 @@ export default {
 } as Meta<typeof Checkbox>;
 
 export const Default = () => {
-  const someValue = true;
+  const someValue = false;
   return (
     <Checkbox
       label={

@@ -14,7 +14,7 @@ interface StyledCardProps {
 }
 
 export const StyledCard = styled.div<StyledCardProps>`
-  display: ${(props) => props.display && props.display};
+  display: ${(props) => (props.display ? props.display : "flex")};
   flex-direction: ${(props) => props.flexDirection && props.flexDirection};
   align-items: ${(props) => props.alignItems && props.alignItems};
   justify-content: ${(props) => props.justifyContent && props.justifyContent};

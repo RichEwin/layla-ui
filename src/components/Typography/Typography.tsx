@@ -14,7 +14,7 @@ export type TagVariants =
 export type FontWeightVariants = "normal" | "bold" | "lighter" | "bolder";
 
 export interface TypographyProps {
-  variant: TagVariants;
+  variant?: TagVariants;
   children: React.ReactNode;
   className?: string;
   italic?: boolean;

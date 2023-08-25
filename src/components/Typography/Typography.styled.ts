@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FontWeightVariants, TagVariants } from "./Typography";
 
 export interface DynamicTypographyProps {
-  variant: TagVariants;
+  variant?: TagVariants;
   children: React.ReactNode;
   className?: string;
   italic?: boolean;
@@ -14,9 +14,11 @@ export interface DynamicTypographyProps {
   isUnderlined?: boolean;
 }
 
+const defaultVariant: TagVariants = "p";
+
 export const DynamicTypography = styled(
   ({
-    variant,
+    variant = defaultVariant,
     children,
     className,
     italic,
