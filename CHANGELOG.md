@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.0](https://github.com/RichEwin/layla-ui/compare/v2.11.2...v2.12.0) (2023-08-25)
+
+
+### Features
+
+* added Card component ([4216aea](https://github.com/RichEwin/layla-ui/commit/4216aea8da1590d552adff7fde4f9e56f8b8093e))
+
 ## [2.11.2](https://github.com/RichEwin/layla-ui/compare/v2.11.1...v2.11.2) (2023-08-25)
 
 
