@@ -1,23 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { StyledCheckBoxInput } from "./Checkbox.styled";
 
 export interface CheckboxProps {
   label: any;
   checked: boolean;
-  onChange?: (event: any) => void;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
 }
 
 export const Checkbox = ({ label, checked, onChange }: CheckboxProps) => {
-  const [isCheckedState, setIsChecked] = useState(checked || false);
+  const [isChecked, setIsChecked] = useState(checked);
 
-  const handleCheckboxChange = () => {
-    const updatedValue = !isCheckedState;
-    setIsChecked(updatedValue);
+  useEffect(() => {
+    setIsChecked(checked);
+  }, [checked]);
 
+  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setIsChecked(event.target.checked);
     if (onChange) {
-      onChange(updatedValue);
+      onChange(event);
     }
   };
 
@@ -25,7 +27,7 @@ export const Checkbox = ({ label, checked, onChange }: CheckboxProps) => {
     <label>
       <StyledCheckBoxInput
         type="checkbox"
-        checked={isCheckedState}
+        checked={isChecked}
         onChange={handleCheckboxChange}
       />
       {label}

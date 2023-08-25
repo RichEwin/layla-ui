@@ -17,7 +17,7 @@ export const Default = () => {
           Woop
         </Typography>
       }
-      onChange={(value) => console.log(value)}
+      onChange={(event) => console.log(event.target.checked)}
       checked={someValue}
     />
   );
