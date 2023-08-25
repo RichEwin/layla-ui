@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.2](https://github.com/RichEwin/layla-ui/compare/v2.11.1...v2.11.2) (2023-08-25)
+
+
+### Bug Fixes
+
+* updated checkbox ([98f6ee7](https://github.com/RichEwin/layla-ui/commit/98f6ee786d4423b5fbb40e7fb202e8c65e983f93))
+
 ## [2.11.1](https://github.com/RichEwin/layla-ui/compare/v2.11.0...v2.11.1) (2023-08-25)
 
 
