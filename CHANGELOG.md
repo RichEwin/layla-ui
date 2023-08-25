@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.1](https://github.com/RichEwin/layla-ui/compare/v2.12.0...v2.12.1) (2023-08-25)
+
+
+### Bug Fixes
+
+* updated checkbox to handle synthetic event ([5e629bb](https://github.com/RichEwin/layla-ui/commit/5e629bb622b02be1c7da435d67945e5af287789e))
+
 ## [2.12.0](https://github.com/RichEwin/layla-ui/compare/v2.11.2...v2.12.0) (2023-08-25)
 
 
