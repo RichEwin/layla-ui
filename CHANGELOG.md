@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.0](https://github.com/RichEwin/layla-ui/compare/v2.10.4...v2.11.0) (2023-08-25)
+
+
+### Features
+
+* added checkbox component ([cdb73b9](https://github.com/RichEwin/layla-ui/commit/cdb73b9f1fb04e45bc7a76ad9ad73ed86d1812cf))
+
 ## [2.10.4](https://github.com/RichEwin/layla-ui/compare/v2.10.3...v2.10.4) (2023-08-24)
 
 
