@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.3](https://github.com/RichEwin/layla-ui/compare/v2.12.2...v2.12.3) (2023-08-25)
+
+
+### Bug Fixes
+
+* updated box props ([db2f87e](https://github.com/RichEwin/layla-ui/commit/db2f87ebcc71ca0f489a7ed7449e9023c8d5fa28))
+
 ## [2.12.2](https://github.com/RichEwin/layla-ui/compare/v2.12.1...v2.12.2) (2023-08-25)
 
 
