@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.13.0](https://github.com/RichEwin/layla-ui/compare/v2.12.3...v2.13.0) (2023-08-25)
+
+
+### Features
+
+* updated naming convention ([7f77710](https://github.com/RichEwin/layla-ui/commit/7f7771035a07d9da09fd2d5115cd4270d7413ed3))
+
 ## [2.12.3](https://github.com/RichEwin/layla-ui/compare/v2.12.2...v2.12.3) (2023-08-25)
 
 
