@@ -33,5 +33,5 @@ export const WithClassName = () => (
 );
 
 export const WithTransparent = () => (
-  <Button isTransparent>I'm Transparent</Button>
+  <Button transparent="true">I'm Transparent</Button>
 );

@@ -21,12 +21,7 @@ export const WithGap = () => (
 );
 
 export const WithCustomStyles = () => (
-  <Box
-    display="flex"
-    alignItems="center"
-    justifyContent="center"
-    backgroundColor="red"
-  >
+  <Box display="flex" align="center" justify="center" background="red">
     <div>Box</div>
   </Box>
 );

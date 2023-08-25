@@ -3,12 +3,12 @@ import { StyledBox } from "./Box.styled";
 
 export interface BoxProps {
   display?: string;
-  alignItems?: string;
-  justifyContent?: string;
+  align?: string;
+  justify?: string;
   gap?: string;
   children: React.ReactNode;
-  backgroundColor?: string;
-  flexDirection?: string;
+  background?: string;
+  direction?: string;
   height?: string;
   width?: string;
   mb?: string;
@@ -20,12 +20,12 @@ export interface BoxProps {
 
 export const Box = ({
   display,
-  alignItems,
-  justifyContent,
+  align,
+  justify,
   gap,
   children,
-  backgroundColor,
-  flexDirection,
+  background,
+  direction,
   height,
   width,
   mb,
@@ -37,11 +37,11 @@ export const Box = ({
   return (
     <StyledBox
       display={display}
-      alignItems={alignItems}
-      justifyContent={justifyContent}
+      align={align}
+      justify={justify}
       gap={gap}
-      backgroundColor={backgroundColor}
-      flexDirection={flexDirection}
+      background={background}
+      direction={direction}
       height={height}
       width={width}
       mb={mb}

@@ -3,12 +3,12 @@ import { StyledCard } from "./Card.styled";
 
 export interface CardProps {
   display?: string;
-  alignItems?: string;
-  justifyContent?: string;
+  align?: string;
+  justify?: string;
   gap?: string;
   children: React.ReactNode;
-  backgroundColor?: string;
-  flexDirection?: string;
+  background?: string;
+  direction?: string;
   height?: string;
   width?: string;
   mb?: string;
@@ -17,12 +17,12 @@ export interface CardProps {
 
 export const Card = ({
   display,
-  alignItems,
-  justifyContent,
+  align,
+  justify,
   gap,
   children,
-  backgroundColor,
-  flexDirection,
+  background,
+  direction,
   height,
   width,
   mb,
@@ -31,11 +31,11 @@ export const Card = ({
   return (
     <StyledCard
       display={display}
-      alignItems={alignItems}
-      justifyContent={justifyContent}
+      align={align}
+      justify={justify}
       gap={gap}
-      backgroundColor={backgroundColor}
-      flexDirection={flexDirection}
+      background={background}
+      direction={direction}
       height={height}
       width={width}
       mb={mb}
