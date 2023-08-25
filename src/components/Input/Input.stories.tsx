@@ -20,3 +20,5 @@ export const WithPlaceholder = () => <Input placeholder="Placeholder" />;
 export const WithType = () => <Input type="number" />;
 
 export const WithLabel = () => <Input label="Label" />;
+
+export const WithHeight = () => <Input height="50px" />;

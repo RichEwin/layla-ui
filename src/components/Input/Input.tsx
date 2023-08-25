@@ -9,6 +9,7 @@ export interface InputProps {
   type?: string;
   label?: string;
   value?: string | number;
+  height?: string;
 }
 
 export const Input = ({
@@ -19,6 +20,7 @@ export const Input = ({
   type,
   label,
   value,
+  height,
 }: InputProps) => {
   return (
     <>
@@ -30,6 +32,7 @@ export const Input = ({
         className={className}
         type={type}
         value={value}
+        height={height}
       />
     </>
   );
