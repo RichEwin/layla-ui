@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.1](https://github.com/RichEwin/layla-ui/compare/v2.11.0...v2.11.1) (2023-08-25)
+
+
+### Bug Fixes
+
+* updated chip border color ([8acb1f6](https://github.com/RichEwin/layla-ui/commit/8acb1f633705ddc3cb85407800d62d6e73d634ad))
+
 ## [2.11.0](https://github.com/RichEwin/layla-ui/compare/v2.10.4...v2.11.0) (2023-08-25)
 
 
