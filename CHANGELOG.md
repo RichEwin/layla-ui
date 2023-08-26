@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.13.1](https://github.com/RichEwin/layla-ui/compare/v2.13.0...v2.13.1) (2023-08-26)
+
+
+### Bug Fixes
+
+* fix for types ([bc1d19f](https://github.com/RichEwin/layla-ui/commit/bc1d19ff8019d64e83731e8a54cbd3f13e83451f))
+
 ## [2.13.0](https://github.com/RichEwin/layla-ui/compare/v2.12.3...v2.13.0) (2023-08-25)
 
 
