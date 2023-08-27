@@ -13,8 +13,8 @@ export interface BoxProps {
   width?: string;
   mb?: string;
   mt?: string;
-  withBorder?: boolean;
-  withBorderRadius?: boolean;
+  withborder?: "true" | "false";
+  withborderradius?: "true" | "false";
   padding?: string;
 }
 
@@ -30,8 +30,8 @@ export const Box = ({
   width,
   mb,
   mt,
-  withBorder,
-  withBorderRadius,
+  withborder,
+  withborderradius,
   padding,
 }: BoxProps) => {
   return (
@@ -46,8 +46,8 @@ export const Box = ({
       width={width}
       mb={mb}
       mt={mt}
-      withBorder={withBorder}
-      withBorderRadius={withBorderRadius}
+      withborder={withborder}
+      withborderradius={withborderradius}
       padding={padding}
     >
       {children}

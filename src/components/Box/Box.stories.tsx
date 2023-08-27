@@ -25,3 +25,9 @@ export const WithCustomStyles = () => (
     <div>Box</div>
   </Box>
 );
+
+export const withBorder = () => (
+  <Box withborder="true" withborderradius="true">
+    <div>Box</div>
+  </Box>
+);

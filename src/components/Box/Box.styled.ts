@@ -11,24 +11,39 @@ interface StyledBoxProps {
   width?: string;
   mt?: string;
   mb?: string;
-  withBorder?: boolean;
-  withBorderRadius?: boolean;
+  withborder?: "true" | "false";
+  withborderradius?: "true" | "false";
   padding?: string;
 }
 
-export const StyledBox = styled.div<StyledBoxProps>`
-  display: ${(props) => (props.display ? props.display : "flex")};
-  flex-direction: ${(props) => props.direction && props.direction};
-  align-items: ${(props) => props.align && props.align};
-  justify-content: ${(props) => props.justify && props.justify};
-  gap: ${(props) => (props.gap ? props.gap : "0")};
-  background-color: ${(props) =>
-    props.background ? props.background : "transparent"};
-  height: ${(props) => props.height && props.height};
-  width: ${(props) => props.width && props.width};
-  margin-top: ${(props) => props.mt && props.mt};
-  margin-bottom: ${(props) => props.mb && props.mb};
-  border: ${(props) => (props.withBorder ? "1px solid #000000" : null)};
-  border-radius: ${(props) => (props.withBorderRadius ? "10px" : null)};
-  padding: ${(props) => (props.padding ? props.padding : null)};
+export const StyledBox = styled.div.attrs<StyledBoxProps>((props) => ({
+  display: props.display || "flex",
+  align: props.align || "center",
+  justify: props.justify || "center",
+  gap: props.gap || "0",
+  background: props.background || "transparent",
+  direction: props.direction || "row",
+  height: props.height || "auto",
+  width: props.width || "auto",
+  mt: props.mt || "0",
+  mb: props.mb || "0",
+  withborder: props.withborder || "false",
+  withborderradius: props.withborderradius || "false",
+  padding: props.padding || "0",
+}))<StyledBoxProps>`
+  display: ${(props) => props.display};
+  align-items: ${(props) => props.align};
+  justify-content: ${(props) => props.justify};
+  gap: ${(props) => props.gap};
+  background: ${(props) => props.background};
+  flex-direction: ${(props) => props.direction};
+  height: ${(props) => props.height};
+  width: ${(props) => props.width};
+  margin-top: ${(props) => props.mt};
+  margin-bottom: ${(props) => props.mb};
+  border: ${(props) =>
+    props.withborder === "true" ? "1px solid #ccc" : "none"};
+  border-radius: ${(props) =>
+    props.withborderradius === "true" ? "10px" : "0"};
+  padding: ${(props) => props.padding};
 `;

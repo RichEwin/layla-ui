@@ -3,14 +3,22 @@ import { StyledChipContainer, StyledChipGroupContainer } from "./Chip.styled";
 
 export interface ChipProps {
   label: string;
-  active: boolean;
-  onClick: () => void;
+  active: true | false;
+  onClick: (label: string) => void;
   color: string;
 }
 
 const Chip = ({ label, active, onClick, color }: ChipProps) => {
+  const handleClick = () => {
+    if (active) {
+      onClick("");
+    } else {
+      onClick(label);
+    }
+  };
+
   return (
-    <StyledChipContainer active={active} onClick={onClick} color={color}>
+    <StyledChipContainer active={active} onClick={handleClick} color={color}>
       {label}
     </StyledChipContainer>
   );
@@ -33,12 +41,8 @@ export const ChipGroup = ({ tags, onClick, reset }: ChipGroupInterface) => {
   }, [reset]);
 
   const toggleTag = (tag: string) => {
-    if (activeTag === tag) {
-      setActiveTag(null);
-    } else {
-      setActiveTag(tag);
-    }
-    onClick(tag);
+    setActiveTag(tag === activeTag ? null : tag);
+    onClick(tag === activeTag ? "" : tag);
   };
 
   return (
